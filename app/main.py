@@ -41,7 +41,7 @@ def predict_image_class(model, image_path, class_indices):
 
 
 # Streamlit App
-st.title('Plant Disease Classifier')
+st.title('Crop Disease Detection')
 
 uploaded_image = st.file_uploader("Upload an image...", type=["jpg", "jpeg", "png"])
 
