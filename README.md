@@ -1,20 +1,18 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
-
-## About
+## Crop Disease Detection Using DeepLearning
+A deep learning-based system that detects and classifies crop diseases from leaf images, helping farmers take timely action. Built with CNNs and a Streamlit interface for easy, real-time predictions.
+## About:
 <!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
-
-## Features
+Crop Disease Detection Using Deep Learning is a project that uses convolutional neural networks (CNNs) to identify and classify diseases in crop leaves from images. This system helps farmers and agricultural experts detect diseases early, enabling timely intervention and improving crop health and yield. The project includes a user-friendly Streamlit interface for easy real-time predictions. It aims to make crop monitoring more efficient and accessible to farmers of all scales.
+## Features:
 <!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
+- Detects and classifies multiple crop diseases from leaf images.
+- Uses advanced Convolutional Neural Networks (CNNs) for high accuracy.
 - High scalability.
+- User-friendly Streamlit interface for easy image uploads and predictions.
 - Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+- Can be extended for multiple crops and scalable for large datasets..
 
-## Requirements
+## Requirements:
 <!--List the requirements of the project as shown below-->
 * Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
 * Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
@@ -24,32 +22,39 @@ Tailored Chatbot for Hostel Booking System is a project designed to integrate a 
 * IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
 * Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
 
-## System Architecture
+## System Architecture:
 <!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+![architecture](https://github.com/user-attachments/assets/87e2949b-c0e9-4c3b-b5fb-c54a5cf41b5d)
 
 
-## Output
+## Output:
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 - Result
+<img width="1920" height="1080" alt="Screenshot (52)" src="https://github.com/user-attachments/assets/68d8501e-9bf4-42b1-ba6b-3a2385b58b83" />
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
-
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
-
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+<img width="1015" height="623" alt="Screenshot 2025-11-13 150145" src="https://github.com/user-attachments/assets/d40bb6ff-117c-4def-8801-484fbb9a34a7" />
 
 
-## Results and Impact
+#### Output2 - Result
+<img width="981" height="626" alt="Screenshot 2025-11-13 145839" src="https://github.com/user-attachments/assets/77ada6bf-686a-4f2d-87c7-d753f31a5e6e" />
+
+<img width="1015" height="576" alt="Screenshot 2025-11-13 150229" src="https://github.com/user-attachments/assets/7fec97a5-f6c0-403d-9592-ba2287b29337" />
+
+
+## Detection Accuracy:88 %
+## Note: These metrics can be customized based on your actual performance evaluations.
+
+
+## Results and Impact:
 <!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+The Crop Disease Detection System provides farmers and agricultural experts with an efficient tool to identify and classify diseases in crops quickly and accurately. By leveraging deep learning and computer vision, the project enables early detection, reducing crop loss and improving yield.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+This project serves as a foundation for future developments in smart farming technologies and contributes to more sustainable and informed agricultural practices.
+## Articles published / References:
+S. Mohanty, D. P. Hughes, and M. Salathé, “Using Deep Learning for Image-Based Plant Disease Detection,” Frontiers in Plant Science, vol. 7, no. 1419, 2016.
 
-## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+A. Brahimi, S. Boukhalfa, and A. Moussaoui, “Deep Learning for Tomato Diseases: Classification and Symptoms Visualization,” Applied Artificial Intelligence, vol. 31, no. 4, 2017.
+
+P. Ferentinos, “Deep Learning Models for Plant Disease Detection and Diagnosis,” Computers and Electronics in Agriculture, vol. 145, pp. 311–318, 2018.
